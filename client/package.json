@@ -1,0 +1,16 @@
+{
+  "name": "disneyshopbr-client",
+  "version": "1.0.0",
+  "description": "Project redesign for an integrated e-commerce project created at Digital House FullStack JS Bootcamp.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Danilo Batista | www.danilobatista.com",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
