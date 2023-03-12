@@ -1,3 +1,8 @@
 export function App() {
-    return <h1>Hello World!</h1>
+    return <div>
+        <cite>“We keep moving forward, opening up new doors and<br />
+            doing new things, because we’re curious...<br />
+            and curiosity keeps leading us down new paths."<br />
+            <strong><sub>Walt Disney</sub></strong></cite>
+    </div>;
 }
