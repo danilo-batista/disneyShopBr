@@ -4,7 +4,8 @@
   "description": "Project redesign for an integrated e-commerce project created at Digital House FullStack JS Bootcamp.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "webpack serve",
+    "build": "cross-env NODE_ENV=production webpack"
   },
   "keywords": [],
   "author": "Danilo Batista | www.danilobatista.com",
@@ -19,6 +20,7 @@
     "@babel/preset-env": "^7.20.2",
     "@babel/preset-react": "^7.18.6",
     "babel-loader": "^9.1.2",
+    "cross-env": "^7.0.3",
     "html-webpack-plugin": "^5.5.0",
     "webpack": "^5.76.1",
     "webpack-cli": "^5.0.1",
