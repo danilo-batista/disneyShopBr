@@ -1,6 +1,6 @@
-import './styles/reset.css';
-import './styles/normalize.css';
-import './styles/global.css';
+import '../public/styles/reset.scss';
+import '../public/styles/normalize.scss';
+import '../public/styles/global.scss';
 
 export function App() {
     return (
